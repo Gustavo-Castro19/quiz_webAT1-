@@ -56,7 +56,7 @@ No **Reino dos Elementos**, quatro forças primordiais moldam civilizações int
 
 ## 🎯 Como Usar
 
-1. Abra o arquivo `index.html` no navegador
+1. Use alguma aplicação de servidor local como: live-server(extensão do vs-code), [http-server](https://www.npmjs.com/package/http-server)(pacote npm), etc
 2. Leia a apresentação do Reino dos Elementos
 3. Clique em "Iniciar Jornada" 
 4. Responda todas as 10 perguntas
