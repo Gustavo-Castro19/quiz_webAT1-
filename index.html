@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reino dos Elementos - Descubra seu Personagem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Página Inicial -->
+    <section id="welcome-page" class="page active">
+        <div class="container">
+            <div class="welcome-content">
+                <h1 class="title">Bem-vindo ao Reino dos Elementos</h1>
+                <div class="subtitle">
+                    <p>Em um mundo místico onde os elementos governam a natureza e os destinos se entrelaçam com poderes
+                        ancestrais...</p>
+                </div>
+
+                <div class="story">
+                    <p>No <strong>Reino dos Elementos</strong>, quatro forças primordiais moldaram civilizações
+                        inteiras. Cada habitante possui uma conexão especial com um dos elementos: <span
+                            class="element fire">Fogo</span>, <span class="element water">Água</span>, <span
+                            class="element earth">Terra</span> ou <span class="element air">Ar</span>.</p>
+
+                    <p>Mestres elementais protegem antigos segredos, guerreiros canalizam poder bruto, e sábios mantêm o
+                        equilíbrio entre as forças da natureza. Cada personagem possui características únicas que
+                        definem seu papel neste universo fantástico.</p>
+
+                    <p class="invitation">Responda ao nosso questionário místico e descubra qual personagem do Reino dos
+                        Elementos melhor representa sua essência!</p>
+                </div>
+
+                <button id="start-quiz-btn" class="btn-primary">Iniciar Jornada</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questionário -->
+    <section id="quiz-page" class="page">
+        <div class="container">
+            <div class="quiz-header">
+                <h2>Questionário do Destino</h2>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span class="progress-text">Pergunta <span id="current-question">1</span> de 10</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="question">
+                    <h3 id="question-text"></h3>
+                </div>
+
+                <div class="options">
+                    <button class="option-btn" data-option="0"></button>
+                    <button class="option-btn" data-option="1"></button>
+                    <button class="option-btn" data-option="2"></button>
+                </div>
+            </div>
+
+            <div class="quiz-navigation">
+                <button id="prev-question-btn" class="btn-secondary" disabled>Anterior</button>
+                <button id="next-question-btn" class="btn-secondary" disabled>Próxima</button>
+                <button id="finish-quiz-btn" class="btn-primary" style="display: none;">Ver Resultado</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resultado -->
+    <section id="result-page" class="page">
+        <div class="container">
+            <div class="result-content">
+                <h2>Seu Destino foi Revelado!</h2>
+
+                <div class="character-result">
+                    <div class="character-image">
+                        <img id="character-img" src="" alt="Personagem">
+                    </div>
+
+                    <div class="character-info">
+                        <h3 id="character-name"></h3>
+                        <div class="character-element">
+                            <span id="character-element"></span>
+                        </div>
+                        <p id="character-description"></p>
+
+                        <div class="score-info">
+                            <p>Pontuação obtida: <span id="character-score"></span> pontos</p>
+                        </div>
+
+                        <div class="character-traits">
+                            <h4>Características:</h4>
+                            <ul id="character-traits-list"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-actions">
+                    <button id="restart-quiz-btn" class="btn-primary">Jogar Novamente</button>
+                    <button id="share-result-btn" class="btn-secondary">Compartilhar Resultado</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
