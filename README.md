@@ -52,47 +52,7 @@ No **Reino dos Elementos**, quatro forças primordiais moldam civilizações int
 - Opção para reiniciar o jogo
 - Funcionalidade de compartilhamento
 
-## 🛠️ Tecnologias Utilizadas
 
-### HTML5
-- Estrutura semântica
-- Múltiplas seções (páginas)
-- Elementos de formulário interativos
-
-### CSS3
-- Design responsivo
-- Animações e transições
-- Gradientes e efeitos visuais
-- Grid e Flexbox para layout
-- Media queries para diferentes dispositivos
-
-### JavaScript ES6+
-- **Orientação a Objetos** com classes:
-  - `Character`: Representa um personagem
-  - `Question`: Representa uma pergunta
-  - `Quiz`: Gerencia o questionário
-  - `Game`: Controla todo o jogo
-- **Manipulação do DOM**
-- **Event Listeners** para interações
-- **Estruturas condicionais** e **loops**
-- **Arrays e objetos** para dados
-- **Arrow functions** e funções tradicionais
-
-## 📋 Requisitos Atendidos
-
-✅ **Interação com o DOM**: Recuperação e atualização de dados do HTML
-✅ **Event Listeners**: Cliques, botões e ações do usuário  
-✅ **Funções**: Básicas e arrow functions
-✅ **Estruturas condicionais**: if/else, operador ternário
-✅ **Laços de repetição**: forEach, for loops
-✅ **Arrays e objetos**: Manipulação de dados estruturados
-✅ **Orientação a objetos**: Classes e métodos
-✅ **10 perguntas** com sistema de pontuação
-✅ **3+ opções por pergunta**
-✅ **Sistema de pontuação** oculto
-✅ **Cálculo de resultado** baseado em pontuação
-✅ **Página de resultado** com detalhes do personagem
-✅ **Funcionalidade de restart**
 
 ## 🎯 Como Usar
 
@@ -136,14 +96,3 @@ Cada opção de pergunta possui pontuação específica para cada personagem:
 - **Cálculo**: Soma das pontuações de todas as respostas
 - **Resultado**: Personagem com maior pontuação total
 
-## 🌐 Compatibilidade
-
-- ✅ Chrome 80+
-- ✅ Firefox 75+  
-- ✅ Safari 13+
-- ✅ Edge 80+
-- ✅ Dispositivos móveis (iOS/Android)
-
----
-
-**Desenvolvido como projeto acadêmico demonstrando conhecimentos em HTML, CSS e JavaScript com foco em orientação a objetos e interação DOM.**
