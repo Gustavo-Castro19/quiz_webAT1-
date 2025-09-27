@@ -63,20 +63,7 @@ No **Reino dos Elementos**, quatro forças primordiais moldam civilizações int
 5. Veja seu resultado e descubra seu personagem!
 6. Use "Jogar Novamente" para reiniciar
 
-## 📱 Design Responsivo
 
-O sistema se adapta a diferentes tamanhos de tela:
-- **Desktop**: Layout em grid com design completo
-- **Tablet**: Ajustes de espaçamento e tamanho
-- **Mobile**: Layout em coluna única otimizado
-
-## 🎨 Características Visuais
-
-- **Tema**: Místico/fantástico com elementos naturais
-- **Cores**: Gradientes representando os elementos
-- **Animações**: Transições suaves e efeitos hover
-- **Tipografia**: Hierarquia clara e legibilidade
-- **Avatares**: SVGs personalizados para cada personagem
 
 ## 📂 Estrutura de Arquivos
 
@@ -84,15 +71,12 @@ O sistema se adapta a diferentes tamanhos de tela:
 web_at/
 ├── index.html          # Estrutura HTML principal
 ├── styles.css          # Estilos e design responsivo  
-├── script.js           # Lógica JavaScript OOP
-└── README.md          # Documentação do projeto
+├── main.js             # Lógica de inicialização 
+├── classes/
+│   ├── game.js         # Classe que controla a lógica do jogo
+│   ├── option.js       # Classe que define opções/perguntas
+│   ├── quiz.js         # Classe que define comportamento de quiz
+│   └── char.js         # Classe que define comportamento de personagem
+└── README.md           # Documentação do projeto
 ```
-
-## 🧪 Sistema de Pontuação
-
-Cada opção de pergunta possui pontuação específica para cada personagem:
-- **Pontuação máxima**: 30 pontos (3 pontos × 10 perguntas)
-- **Pontuação mínima**: 0 pontos
-- **Cálculo**: Soma das pontuações de todas as respostas
-- **Resultado**: Personagem com maior pontuação total
 
