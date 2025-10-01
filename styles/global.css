@@ -11,6 +11,23 @@ body {
         radial-gradient(ellipse at bottom, rgba(25, 25, 112, 0.4) 0%, transparent 70%),
         linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #533a71 75%, #6b4e71 100%);
     min-height: 100vh;
+    position: relative;
+}
+
+.page {
+    display: none;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.page.active {
+    display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
