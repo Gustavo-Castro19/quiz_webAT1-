@@ -1,0 +1,16 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background:
+        radial-gradient(ellipse at top, rgba(139, 69, 19, 0.3) 0%, transparent 70%),
+        radial-gradient(ellipse at bottom, rgba(25, 25, 112, 0.4) 0%, transparent 70%),
+        linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #533a71 75%, #6b4e71 100%);
+    min-height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
