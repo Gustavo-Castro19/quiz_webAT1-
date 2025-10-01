@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/welcome-banner.css">
     <link rel="stylesheet" href="styles/btn.css">
+    <link rel="stylesheet" href="styles/quiz-content.css">
 </head>
 
 <body>
@@ -48,15 +49,15 @@
         </div>
     </section>
 
-    <section id="quiz-page" class="page">
-        <div class="container">
-            <div class="quiz-header">
+    <section id="quiz-page" class="page container">
+        <div class="content">
+            <div class="header">
                 <h2>Questionário do Destino</h2>
-                <div class="progress-container">
+                <div class="progress-bar-container">
+                    <span class="progress-text">Pergunta <span id="current-question">1</span> de 10</span>
                     <div class="progress-bar">
                         <div class="progress-fill"></div>
                     </div>
-                    <span class="progress-text">Pergunta <span id="current-question">1</span> de 10</span>
                 </div>
             </div>
 
