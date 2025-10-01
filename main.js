@@ -1,7 +1,6 @@
 import { Game } from './classes/game.js';
 
 const game = new Game();
-
 const startBtn = document.getElementById('start-quiz-btn');
 const optionButtons = document.querySelectorAll('.option-btn');
 const prevBtn = document.getElementById('prev-question-btn');

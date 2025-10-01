@@ -53,7 +53,7 @@ export class Game {
         ];
     }
     createQuestions() {
-        let idx_count=1;
+        let idx_count=0;
         const questions = [
             new Question(idx_count, "Em uma situação de perigo, qual seria sua primeira reação?", [
                 { text: "Enfrento o perigo de frente com coragem", scores: [3, 1, 2, 0] },
@@ -106,7 +106,7 @@ export class Game {
                 { text: "Comandar a força da terra", scores: [2, 1, 3, 0] },
             ])
         ];
-        idx_count=1;
+        idx_count=0;
         questions[idx_count].options.push({ text: "Busco liberdade para encontrar nova perspectiva", scores: [2, 0, 1, 3] });
         questions[idx_count++].options.push({ text: "No topo de uma montanha com vista infinita", scores: [2, 0, 1, 3] });
         questions[idx_count++].options.push({ text: "Trago novas ideias para resolver o problema", scores: [2, 1, 0, 3] });
