@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+  <defs>
+    <radialGradient id='water' cx='50%' cy='50%'>
+      <stop offset='0%' stop-color='#3742fa'/>
+      <stop offset='100%' stop-color='#2f3542'/>
+    </radialGradient>
+  </defs>
+  <circle cx='100' cy='100' r='90' fill='url(#water)'/>
+  <path d='M100 50 Q80 70 80 90 Q80 110 100 130 Q120 110 120 90 Q120 70 100 50' fill='#fff' opacity='0.8'/>
+  <circle cx='70' cy='120' r='15' fill='#fff' opacity='0.6'/>
+  <circle cx='130' cy='120' r='15' fill='#fff' opacity='0.6'/>
+</svg>

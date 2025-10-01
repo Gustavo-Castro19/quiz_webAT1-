@@ -23,7 +23,7 @@ export class Game {
                 "Fogo",
                 "Um guerreiro impetuoso que domina o poder destrutivo e purificador do fogo. Líder nato, enfrenta desafios de frente com coragem e determinação inabaláveis.",
                 ["Corajoso e determinado", "Líder natural", "Protetor dos inocentes", "Temperamento forte", "Leal aos amigos"],
-                "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3CradialGradient id='fire' cx='50%25' cy='50%25'%3E%3Cstop offset='0%25' stop-color='%23ff4757'/%3E%3Cstop offset='100%25' stop-color='%23c44569'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='100' cy='100' r='90' fill='url(%23fire)'/%3E%3Cpath d='M100 40 L120 80 L160 80 L130 110 L140 150 L100 130 L60 150 L70 110 L40 80 L80 80 Z' fill='%23fff' opacity='0.8'/%3E%3C/svg%3E",
+                "../img/ignis.svg",
                 "#ff4757"
             ),
             new Character(
@@ -31,7 +31,7 @@ export class Game {
                 "Água",
                 "Uma sábia curandeira que flui como a água, adaptando-se às circunstâncias. Possui empatia profunda e habilidade de trazer paz aos conflitos através da compreensão.",
                 ["Empática e compreensiva", "Habilidades de cura", "Adaptável às situações", "Pacificadora natural", "Intuitiva"],
-                "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3CradialGradient id='water' cx='50%25' cy='50%25'%3E%3Cstop offset='0%25' stop-color='%233742fa'/%3E%3Cstop offset='100%25' stop-color='%232f3542'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='100' cy='100' r='90' fill='url(%23water)'/%3E%3Cpath d='M100 50 Q80 70 80 90 Q80 110 100 130 Q120 110 120 90 Q120 70 100 50' fill='%23fff' opacity='0.8'/%3E%3Ccircle cx='70' cy='120' r='15' fill='%23fff' opacity='0.6'/%3E%3Ccircle cx='130' cy='120' r='15' fill='%23fff' opacity='0.6'/%3E%3C/svg%3E",
+                "../img/aqua.svg",
                 "#3742fa"
             ),
             new Character(
@@ -39,15 +39,16 @@ export class Game {
                 "Terra",
                 "Um guardião sábio e resistente como as montanhas. Protetor da natureza e guardião de antigos segredos, oferece estabilidade e força para aqueles que buscam orientação.",
                 ["Protetor da natureza", "Sábio e experiente", "Confiável e leal", "Resistente e forte", "Guardião de segredos"],
-                "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3CradialGradient id='earth' cx='50%25' cy='50%25'%3E%3Cstop offset='0%25' stop-color='%235f27cd'/%3E%3Cstop offset='100%25' stop-color='%23341f97'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='100' cy='100' r='90' fill='url(%23earth)'/%3E%3Cpolygon points='100,60 80,100 120,100' fill='%23fff' opacity='0.8'/%3E%3Cpolygon points='100,100 70,140 130,140' fill='%23fff' opacity='0.6'/%3E%3Cpolygon points='100,140 85,160 115,160' fill='%23fff' opacity='0.4'/%3E%3C/svg%3E",
+                "../img/terra.svg",
                 "#5f27cd"
             ),
             new Character(
                 "Ventus, o Andarilho dos Ventos",
                 "Ar",
                 "Um espírito livre que dança com o vento. Criativo e visionário, busca constantemente novas experiências e conhecimentos, inspirando outros com sua energia contagiante.",
-                ["Espírito aventureiro", "Criativo e inovador", "Comunicativo e carismático", "Livre e independente", "Visionário"],
-                "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3CradialGradient id='air' cx='50%25' cy='50%25'%3E%3Cstop offset='0%25' stop-color='%2300d2d3'/%3E%3Cstop offset='100%25' stop-color='%23006ba6'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='100' cy='100' r='90' fill='url(%23air)'/%3E%3Cpath d='M60 90 Q100 70 140 90 Q100 110 60 90' fill='%23fff' opacity='0.8'/%3E%3Cpath d='M70 110 Q100 90 130 110 Q100 130 70 110' fill='%23fff' opacity='0.6'/%3E%3Cpath d='M80 130 Q100 110 120 130 Q100 150 80 130' fill='%23fff' opacity='0.4'/%3E%3C/svg%3E",
+                ["Espírito aventureiro", "Criativo e inovador", "Comunicativo e carismático", "Livre e independente", 
+                "Visionário"],
+                "../img/ventus.svg",
                 "#00d2d3"
             )
         ];
