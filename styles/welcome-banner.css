@@ -1,0 +1,112 @@
+.page {
+    display: none;
+    margin-top: 40px;
+}
+
+.page.active {
+    display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-content {
+    text-align: center;
+    padding: 60px 40px;
+    border-radius: 25px;
+    background-color: #F0F0F0;
+    box-shadow:
+        0 25px 50px rgba(0, 0, 0, 0.3),
+        inset 0 3px 6px rgba(255, 255, 255, 0.4),
+        inset 0 -3px 6px rgba(139, 69, 19, 0.2);
+    backdrop-filter: blur(10px);
+    max-width: 800px;
+}
+
+.welcome-content::before {
+    content: '⚔ ◊ ⚜ ◊ ⚔';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8B4513;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    opacity: 0.7;
+}
+
+.welcome-content::after {
+    content: '◆ ◇ ✦ ◇ ◆';
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8B4513;
+    font-size: 1.2rem;
+    letter-spacing: 8px;
+    opacity: 0.7;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 20px 0;
+    background: linear-gradient(45deg, #8B4513, #DAA520, #B8860B, #A0522D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #666;
+    font-style: italic;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.element {
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+.element.fire {
+    background-color: #b51623;
+}
+
+.element.water {
+    background-color: #1b53b3;
+}
+
+.element.earth {
+    background-color: #45199c;
+}
+
+.element.air {
+    background-color: #239585;
+}
+
+.invitation {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    margin: 15px 0;
+    background-color: rgba(52, 152, 219, 0.1);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
