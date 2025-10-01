@@ -40,7 +40,7 @@ export class Game {
                 "Um guardião sábio e resistente como as montanhas. Protetor da natureza e guardião de antigos segredos, oferece estabilidade e força para aqueles que buscam orientação.",
                 ["Protetor da natureza", "Sábio e experiente", "Confiável e leal", "Resistente e forte", "Guardião de segredos"],
                 "../img/terra.svg",
-                "#5f27cd"
+                "#8d4925"
             ),
             new Character(
                 "Ventus, o Andarilho dos Ventos",

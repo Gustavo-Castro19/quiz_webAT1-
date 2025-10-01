@@ -88,13 +88,14 @@ foo@bar: <CTRL-C>
 ```
 web_at/
 ├── index.html          # Estrutura HTML principal
+├── img/                # pasta com imagens utilizadas em svg 
 ├── styles.css          # Estilos e design responsivo  
 ├── main.js             # Lógica de inicialização 
-├── classes/
+├── classes/            # Pasta com os arquivos .js que definem a classe 
 │   ├── game.js         # Classe que controla a lógica do jogo
 │   ├── option.js       # Classe que define opções/perguntas
 │   ├── quiz.js         # Classe que define comportamento de quiz
-│   └── char.js         # Classe que define comportamento de personagem
+│   └── char.js         # Classe que define comportamento de personagem 
 └── README.md           # Documentação do projeto
 ```
 
