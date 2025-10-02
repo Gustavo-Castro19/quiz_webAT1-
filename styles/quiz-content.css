@@ -171,3 +171,17 @@
     align-items: center;
     gap: 20px;
 }
+
+
+@media (max-width: 480px) {
+    .question h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .quiz-navigation {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

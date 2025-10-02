@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reino dos Elementos - Descubra seu Personagem</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/welcome-banner.css">
     <link rel="stylesheet" href="styles/btn.css">
     <link rel="stylesheet" href="styles/quiz-content.css">
+    <link rel="stylesheet" href="styles/result.css">
 </head>
 
 <body>
@@ -49,34 +49,36 @@
         </div>
     </section>
 
-    <section id="quiz-page" class="page container">
-        <div class="content">
-            <div class="header">
-                <h2>Questionário do Destino</h2>
-                <div class="progress-bar-container">
-                    <span class="progress-text">Pergunta <span id="current-question">1</span> de 10</span>
-                    <div class="progress-bar">
-                        <div class="progress-fill"></div>
+    <section id="quiz-page" class="page">
+        <div class="container content">
+            <div class="content">
+                <div class="header">
+                    <h2>Questionário do Destino</h2>
+                    <div class="progress-bar-container">
+                        <span class="progress-text">Pergunta <span id="current-question">1</span> de 10</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="question-container">
-                <div class="question">
-                    <h3 id="question-text"></h3>
+    
+                <div class="question-container">
+                    <div class="question">
+                        <h3 id="question-text"></h3>
+                    </div>
+    
+                    <div class="options">
+                        <button class="option-btn" data-option="0"></button>
+                        <button class="option-btn" data-option="1"></button>
+                        <button class="option-btn" data-option="2"></button>
+                    </div>
                 </div>
-
-                <div class="options">
-                    <button class="option-btn" data-option="0"></button>
-                    <button class="option-btn" data-option="1"></button>
-                    <button class="option-btn" data-option="2"></button>
+    
+                <div class="quiz-navigation">
+                    <button id="prev-question-btn" class="btn-secondary" disabled>Anterior</button>
+                    <button id="next-question-btn" class="btn-secondary" disabled>Próxima</button>
+                    <button id="finish-quiz-btn" class="btn-primary" style="display: none;">Ver Resultado</button>
                 </div>
-            </div>
-
-            <div class="quiz-navigation">
-                <button id="prev-question-btn" class="btn-secondary" disabled>Anterior</button>
-                <button id="next-question-btn" class="btn-secondary" disabled>Próxima</button>
-                <button id="finish-quiz-btn" class="btn-primary" style="display: none;">Ver Resultado</button>
             </div>
         </div>
     </section>
@@ -87,17 +89,21 @@
                 <h2>Seu Destino foi Revelado!</h2>
 
                 <div class="character-result">
-                    <div class="character-image">
-                        <img id="character-img" src="" alt="Personagem">
+                    <div class="character-info">
+                        <h3 id="character-name"></h3>
+                        <div class="element-content">
+                            <div class="character-element">
+                                <span id="character-element"></span>
+                            </div>
+
+                            <div class="character-image">
+                                <img id="character-img" src="" alt="Personagem">
+                            </div>
+                        </div>
+                        <p id="character-description"></p>
                     </div>
 
                     <div class="character-info">
-                        <h3 id="character-name"></h3>
-                        <div class="character-element">
-                            <span id="character-element"></span>
-                        </div>
-                        <p id="character-description"></p>
-
                         <div class="score-info">
                             <p>Pontuação obtida: <span id="character-score"></span> pontos</p>
                         </div>

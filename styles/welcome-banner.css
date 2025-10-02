@@ -92,3 +92,23 @@
     padding: 15px 20px;
     border-radius: 5px;
 }
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .welcome-content {
+        padding: 40px 20px;
+    }
+
+    .story {
+        font-size: 1rem;
+    }
+}

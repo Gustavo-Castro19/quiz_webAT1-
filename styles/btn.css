@@ -53,3 +53,9 @@
     color: #262626;
     box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 480px) {
+    .question h3 {
+        font-size: 1.5rem;
+    }
+}
