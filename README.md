@@ -35,7 +35,7 @@ No **Reino dos Elementos**, quatro forças primordiais moldam civilizações int
 
 ### 2. Questionário Interativo
 - **10 perguntas** com múltiplas escolhas
-- **3 opções por pergunta** 
+- **4 opções por pergunta** 
 - Sistema de pontuação oculto para cada personagem
 - Barra de progresso visual
 - Navegação entre perguntas (anterior/próxima)
