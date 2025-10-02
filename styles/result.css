@@ -1,0 +1,159 @@
+.result-content {
+    background: #F0F0F0;
+    padding: 50px 40px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.result-content::before {
+    content: '⚔ ❖ ⚜ DESTINO REVELADO ⚜ ❖ ⚔';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #673FD7;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    opacity: 0.7;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+.result-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.character-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.element-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.character-image {
+    text-align: center;
+}
+
+.character-image img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+    width: 100%;
+}
+
+.character-info h3 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.character-element span {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.character-info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.score-info {
+    background: #fff;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.score-info p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.character-traits h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.character-traits {
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.character-traits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.character-traits li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    margin: 15px 0;
+    background-color: rgba(52, 152, 219, 0.1);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.result-actions {
+    margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+    .character-info h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .character-result {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .character-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .character-info {
+        text-align: center;
+    }
+}
